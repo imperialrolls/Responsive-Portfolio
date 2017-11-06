@@ -10,7 +10,7 @@
 
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
@@ -45,14 +45,18 @@
 				<h2>Contact</h2>
 				<form>
 
-					Name:
-				<input type="text" name="firstname" placeholder="John J Jingleheimer Schmidt">
-				Email:
-				<input type="text" name="lastname" placeholder="johnjjingleheimerschmidt@gmail.com">
-				Message:
-				<textarea></textarea>
+			    <label for="firstname">Name:</label>
+			    <input type="text" id="firstname" name="firstname" placeholder="John J Jingleheimer Schmidt">
+			    <br>
 
-				</form>
+			    <label for="email">Email:</label>
+			    <input type="text" id="email" name="email" placeholder="johnjjingleheimerschmidt@gmail.com">
+			    <br>
+			    <br>
+			    <label for="message">Message:</label>
+			    <textarea id="message" name="message"></textarea>
+
+			</form>
 
 				<button type="button" class="logo" onclick="alert('Hello World!')">Submit</button>
 			</div>
@@ -65,10 +69,10 @@
 			<div class="padded-box">
 				<h3>Where To Find Me</h3>
 				<a href="https://www.instagram.com/imperial_rolls/" target="_blank">
-					<img src="assets/images/Instagram-logo.png" alt="Instagram Icon">
+					<img src="assets/images/Instagram-logo.png" alt="Instagram Icon" width="75px" height="75px">
 				</a>
 				<a href="https://www.linkedin.com/in/christopherrolls/" target="_blank">
-					<img src="assets/images/Linkedin_vmc2015.png" alt="Linkedin Icon">
+					<img src="assets/images/Linkedin_vmc2015.png" alt="Linkedin Icon" width="75px" height="75px">
 				</a>
 		    </div>
 		</aside>
